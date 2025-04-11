@@ -1,0 +1,1 @@
+function shop:goods/start

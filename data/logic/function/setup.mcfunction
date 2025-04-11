@@ -10,3 +10,8 @@ gamerule commandBlockOutput false
 gamerule announceAdvancements true
 
 time set midnight
+
+scoreboard objectives remove money
+scoreboard objectives add money dummy money
+
+function shop:setup

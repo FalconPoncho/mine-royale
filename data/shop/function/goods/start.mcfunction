@@ -1,0 +1,1 @@
+scoreboard players set @a available_stone_pickaxe 1
