@@ -10,9 +10,9 @@ begin the game.
 This is a work in progress. Currently implemented features are:
 - World generation
 - Item shop menu
+- Batch file to easily create new items
 
 Planned future developments:
-- Batch file to easily create new items
 - Open item shop menu without commands
 - Trade ores for money
 - More buyable items
