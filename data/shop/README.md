@@ -4,7 +4,25 @@ Contains items available for purchase.
 
 ## Adding an item
 
-To add a new item, the following functions must be added to:
+### Automatically
+
+To add a new item, run `create_item.bat` from the command line inside the
+`shop` directory. Follow the prompts to create a new entry in the shop.
+
+The `give` command executed when a new item is purchased is set to give the
+player a grass block by default. This must be manually changed by editing 
+`shop:goods/{item_name}.mcfunction`, which is generated after running
+`create_item.bat`.
+
+Additionally, if a new item is unlocked by first purchasing a prerequisite
+item, the following line should be added to `shop:goods/{prerequisite_item}`:
+```
+scoreboard players set @s available_{item_name} 1
+```
+
+### Manually
+
+To add a new item manually, the following functions must be added to:
 - `shop:goods/setup`
 ```
 scoreboard objectives remove available_{item_name}

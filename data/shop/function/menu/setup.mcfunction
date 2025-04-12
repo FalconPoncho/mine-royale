@@ -9,4 +9,3 @@ scoreboard objectives add insufficient_funds_timer dummy insufficient_funds_time
 
 scoreboard objectives remove buy_stone_pickaxe
 scoreboard objectives add buy_stone_pickaxe trigger buy_stone_pickaxe
-# Add an objective for each new good in the store
