@@ -1,0 +1,1 @@
+execute as @a[scores={used_return_crystal=1..}] run function teleport:to_shop

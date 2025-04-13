@@ -9,3 +9,6 @@ scoreboard objectives add insufficient_funds_timer dummy insufficient_funds_time
 
 scoreboard objectives remove buy_stone_pickaxe
 scoreboard objectives add buy_stone_pickaxe trigger buy_stone_pickaxe
+
+scoreboard objectives remove buy_return_crystal
+scoreboard objectives add buy_return_crystal trigger buy_return_crystal

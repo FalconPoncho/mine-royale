@@ -7,3 +7,4 @@ execute if score @s insufficient_funds_timer matches 1.. run tellraw @s {"text":
 execute if score @s insufficient_funds_timer matches 1.. run scoreboard players remove @s insufficient_funds_timer 1
 
 execute if score @s available_stone_pickaxe matches 1 run function shop:menu/goods/stone_pickaxe
+execute if score @s available_return_crystal matches 1 run function shop:menu/goods/return_crystal
