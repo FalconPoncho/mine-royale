@@ -8,3 +8,7 @@ scoreboard players set stone_pickaxe price 10
 scoreboard objectives remove available_return_crystal
 scoreboard objectives add available_return_crystal dummy available_return_crystal
 scoreboard players set return_crystal price 10
+
+scoreboard objectives remove available_iron_pickaxe
+scoreboard objectives add available_iron_pickaxe dummy available_iron_pickaxe
+scoreboard players set iron_pickaxe price 100
