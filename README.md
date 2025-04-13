@@ -11,9 +11,10 @@ This is a work in progress. Currently implemented features are:
 - World generation
 - Item shop menu
 - Batch file to easily create new items
+- Teleport to the shop and back with a return crystal
 
 Planned future developments:
-- Open item shop menu without commands
+- Physical item shop
 - Trade ores for money
 - More buyable items
 - Victory conditions
