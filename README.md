@@ -12,10 +12,10 @@ This is a work in progress. Currently implemented features are:
 - Item shop menu
 - Batch file to easily create new items
 - Teleport to the shop and back with a return crystal
+- Victory after a round timer
 
 Planned future developments:
 - Physical item shop
 - Trade ores for money
 - More buyable items
-- Victory conditions
 - Better world generation

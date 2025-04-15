@@ -1,4 +1,5 @@
+schedule function logic:loop 1t
+
 function shop:menu/loop
 function teleport:loop
-
-schedule function logic:loop 1t
+function timer:loop
