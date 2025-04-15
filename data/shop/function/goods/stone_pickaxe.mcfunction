@@ -7,3 +7,4 @@ execute if score @s money >= stone_pickaxe price run function shop:menu/close
 execute if score @s money >= stone_pickaxe price run scoreboard players operation @s money -= stone_pickaxe price
 
 scoreboard players set @s available_iron_pickaxe 1
+scoreboard players set @s available_stone_pickaxe 0
