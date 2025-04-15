@@ -9,3 +9,4 @@ execute if score @s insufficient_funds_timer matches 1.. run scoreboard players 
 execute if score @s available_stone_pickaxe matches 1 run function shop:menu/goods/stone_pickaxe
 execute if score @s available_return_crystal matches 1 run function shop:menu/goods/return_crystal
 execute if score @s available_iron_pickaxe matches 1 run function shop:menu/goods/iron_pickaxe
+execute if score @s available_diamond_pickaxe matches 1 run function shop:menu/goods/diamond_pickaxe

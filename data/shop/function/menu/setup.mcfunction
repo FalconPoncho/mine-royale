@@ -15,3 +15,6 @@ scoreboard objectives add buy_return_crystal trigger buy_return_crystal
 
 scoreboard objectives remove buy_iron_pickaxe
 scoreboard objectives add buy_iron_pickaxe trigger buy_iron_pickaxe
+
+scoreboard objectives remove buy_diamond_pickaxe
+scoreboard objectives add buy_diamond_pickaxe trigger buy_diamond_pickaxe
