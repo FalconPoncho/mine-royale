@@ -16,3 +16,7 @@ scoreboard players set iron_pickaxe price 100
 scoreboard objectives remove available_diamond_pickaxe
 scoreboard objectives add available_diamond_pickaxe dummy available_diamond_pickaxe
 scoreboard players set diamond_pickaxe price 1000
+
+scoreboard objectives remove available_stone_sword
+scoreboard objectives add available_stone_sword dummy available_stone_sword
+scoreboard players set stone_sword price 10
