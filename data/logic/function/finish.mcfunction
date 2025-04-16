@@ -9,4 +9,4 @@ title @a reset
 title @a times 1s 8s 1s
 title @a title [{"color":"gold","selector":"@a[scores={winner=1}]","shadow_color":855638015},{"color":"gold","shadow_color":855638015,"text":" won!"}]
 
-teleport @a 0 0 0 0 0
+teleport @a 0 128 0 0 0
