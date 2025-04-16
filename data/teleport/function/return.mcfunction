@@ -8,6 +8,7 @@ execute store result entity @e[type=armor_stand,tag=return_location,limit=1] Rot
 teleport @e[type=armor_stand,tag=return_location,limit=1]
 kill @e[type=armor_stand,tag=return_location,limit=1]
 scoreboard players set @s at_shop 0
+gamemode survival @s
 
 scoreboard players reset @s position_x
 scoreboard players reset @s position_y
