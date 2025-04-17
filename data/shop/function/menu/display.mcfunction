@@ -12,3 +12,4 @@ execute if score @s available_iron_pickaxe matches 1 run function shop:menu/good
 execute if score @s available_diamond_pickaxe matches 1 run function shop:menu/goods/diamond_pickaxe
 execute if score @s available_stone_sword matches 1 run function shop:menu/goods/stone_sword
 execute if score @s available_iron_sword matches 1 run function shop:menu/goods/iron_sword
+execute if score @s available_diamond_sword matches 1 run function shop:menu/goods/diamond_sword

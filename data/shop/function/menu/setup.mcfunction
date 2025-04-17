@@ -24,3 +24,6 @@ scoreboard objectives add buy_stone_sword trigger buy_stone_sword
 
 scoreboard objectives remove buy_iron_sword
 scoreboard objectives add buy_iron_sword trigger buy_iron_sword
+
+scoreboard objectives remove buy_diamond_sword
+scoreboard objectives add buy_diamond_sword trigger buy_diamond_sword

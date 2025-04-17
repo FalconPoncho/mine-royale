@@ -24,3 +24,7 @@ scoreboard players set stone_sword price 10
 scoreboard objectives remove available_iron_sword
 scoreboard objectives add available_iron_sword dummy available_iron_sword
 scoreboard players set iron_sword price 100
+
+scoreboard objectives remove available_diamond_sword
+scoreboard objectives add available_diamond_sword dummy available_diamond_sword
+scoreboard players set diamond_sword price 1000

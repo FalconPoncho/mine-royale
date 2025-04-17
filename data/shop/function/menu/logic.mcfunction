@@ -7,3 +7,4 @@ execute if score @s buy_iron_pickaxe matches 1 run function shop:goods/iron_pick
 execute if score @s buy_diamond_pickaxe matches 1 run function shop:goods/diamond_pickaxe
 execute if score @s buy_stone_sword matches 1 run function shop:goods/stone_sword
 execute if score @s buy_iron_sword matches 1 run function shop:goods/iron_sword
+execute if score @s buy_diamond_sword matches 1 run function shop:goods/diamond_sword
