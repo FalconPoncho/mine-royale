@@ -21,3 +21,6 @@ scoreboard objectives add buy_diamond_pickaxe trigger buy_diamond_pickaxe
 
 scoreboard objectives remove buy_stone_sword
 scoreboard objectives add buy_stone_sword trigger buy_stone_sword
+
+scoreboard objectives remove buy_iron_sword
+scoreboard objectives add buy_iron_sword trigger buy_iron_sword
