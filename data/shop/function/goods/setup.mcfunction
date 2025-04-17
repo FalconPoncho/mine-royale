@@ -28,3 +28,7 @@ scoreboard players set iron_sword price 100
 scoreboard objectives remove available_diamond_sword
 scoreboard objectives add available_diamond_sword dummy available_diamond_sword
 scoreboard players set diamond_sword price 1000
+
+scoreboard objectives remove available_torch
+scoreboard objectives add available_torch dummy available_torch
+scoreboard players set torch price 5

@@ -27,3 +27,6 @@ scoreboard objectives add buy_iron_sword trigger buy_iron_sword
 
 scoreboard objectives remove buy_diamond_sword
 scoreboard objectives add buy_diamond_sword trigger buy_diamond_sword
+
+scoreboard objectives remove buy_torch
+scoreboard objectives add buy_torch trigger buy_torch
