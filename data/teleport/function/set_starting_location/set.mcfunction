@@ -1,0 +1,7 @@
+execute store result score @a position_x run data get entity @s Pos[0]
+execute store result score @a position_y run data get entity @s Pos[1]
+execute store result score @a position_z run data get entity @s Pos[2]
+execute store result score @a rotation_yaw run data get entity @s Rotation[0]
+execute store result score @a rotation_pitch run data get entity @s Rotation[1]
+
+kill @n[type=armor_stand,tag=starting_location]
