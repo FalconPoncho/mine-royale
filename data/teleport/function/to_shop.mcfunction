@@ -8,5 +8,5 @@ execute store result score @s rotation_pitch run data get entity @s Rotation[1]
 
 gamemode adventure @s
 function teleport:visual
-teleport 0 128 0
+teleport @a 12.5 129.0 8.0 90.0 0.0
 scoreboard players set @s at_shop 1

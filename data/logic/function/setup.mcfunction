@@ -8,6 +8,8 @@ gamerule doInsomnia false
 gamerule doImmediateRespawn true
 gamerule commandBlockOutput false
 gamerule announceAdvancements true
+gamerule playersNetherPortalCreativeDelay 20000
+gamerule playersNetherPortalDefaultDelay 20000
 
 time set midnight
 
