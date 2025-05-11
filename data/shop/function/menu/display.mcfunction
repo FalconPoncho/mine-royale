@@ -14,3 +14,4 @@ execute if score @s available_stone_sword matches 1 run function shop:menu/goods
 execute if score @s available_iron_sword matches 1 run function shop:menu/goods/iron_sword
 execute if score @s available_diamond_sword matches 1 run function shop:menu/goods/diamond_sword
 execute if score @s available_torch matches 1 run function shop:menu/goods/torch
+execute if score @s available_claim_stake matches 1 run function shop:menu/goods/claim_stake

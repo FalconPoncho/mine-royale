@@ -32,3 +32,7 @@ scoreboard players set diamond_sword price 1000
 scoreboard objectives remove available_torch
 scoreboard objectives add available_torch dummy available_torch
 scoreboard players set torch price 5
+
+scoreboard objectives remove available_claim_stake
+scoreboard objectives add available_claim_stake dummy available_claim_stake
+scoreboard players set claim_stake price 100
