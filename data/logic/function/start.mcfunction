@@ -5,4 +5,4 @@ teleport @a 12.5 129.0 8.0 90.0 0.0
 
 function shop:start
 function teleport:start
-function logic:loop
+function logic:loop_countdown
