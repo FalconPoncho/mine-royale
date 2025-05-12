@@ -13,9 +13,9 @@ This is a work in progress. Currently implemented features are:
 - Batch file to easily create new items
 - Teleport to the shop and back with a return crystal
 - Victory after a round timer
+- Physical item shop
 
 Planned future developments:
-- Physical item shop
 - Trade ores for money
 - More buyable items
 - Better world generation
