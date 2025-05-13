@@ -12,5 +12,5 @@ title @a title [{"color":"gold","selector":"@a[scores={winner=1}]","shadow_color
 function shop:portal/close
 
 gamemode adventure @s
-teleport @a[scores={at_shop=0}] 12.5 129.0 8.0 90.0 0.0
+teleport @a[scores={at_shop=0}] 19.5 129.0 8.0 90.0 0.0
 scoreboard players set @s at_shop 1
