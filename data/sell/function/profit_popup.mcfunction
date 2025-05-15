@@ -1,0 +1,1 @@
+execute at @n[type=villager,tag=buyer] run summon text_display ~ ~2.2 ~ {billboard:"vertical",text:[{"color":"green","shadow_color":855638015,"text":"+$"},{"color":"green","score":{"name":"@s","objective":"money_change"},"shadow_color":855638015}]}
