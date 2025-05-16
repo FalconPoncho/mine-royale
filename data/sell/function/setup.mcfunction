@@ -2,6 +2,8 @@ scoreboard objectives remove value
 scoreboard objectives add value dummy value
 scoreboard objectives remove money_change
 scoreboard objectives add money_change dummy money_change
+scoreboard objectives remove alive_ticks
+scoreboard objectives add alive_ticks dummy value
 
 scoreboard objectives remove coal
 scoreboard objectives add coal dummy coal

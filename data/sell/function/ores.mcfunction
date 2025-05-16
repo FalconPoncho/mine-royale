@@ -11,4 +11,4 @@ function sell:ores/lapis_lazuli
 function sell:ores/redstone
 
 scoreboard players operation @s money_change += @s money
-function sell:profit_popup
+function sell:profit_popup/create

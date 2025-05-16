@@ -22,6 +22,7 @@ scoreboard objectives add money dummy money
 scoreboard objectives remove winner
 scoreboard objectives add winner dummy winner
 
+function sell:setup
 function shop:setup
 function teleport:setup
 function timer:setup
