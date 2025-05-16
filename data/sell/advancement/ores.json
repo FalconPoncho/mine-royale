@@ -1,0 +1,32 @@
+{
+  "criteria": {
+    "spoke_to_buyer": {
+      "trigger": "minecraft:player_interacted_with_entity",
+      "conditions": {
+        "entity": {
+          "type": "minecraft:villager",
+          "location": {
+            "position": {
+              "x": {
+                "min": 4,
+                "max": 6
+              },
+              "y": {
+                "min": 128,
+                "max": 132
+              },
+              "z": {
+                "min": 10,
+                "max": 12
+              }
+            },
+            "dimension": "minecraft:overworld"
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "sell:ores"
+  }
+}
