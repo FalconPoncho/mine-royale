@@ -1,0 +1,32 @@
+{
+  "criteria": {
+    "spoke_to_shop": {
+      "trigger": "minecraft:player_interacted_with_entity",
+      "conditions": {
+        "entity": {
+          "type": "minecraft:villager",
+          "location": {
+            "position": {
+              "x": {
+                "min": 1,
+                "max": 3
+              },
+              "y": {
+                "min": 128,
+                "max": 132
+              },
+              "z": {
+                "min": 7,
+                "max": 9
+              }
+            },
+            "dimension": "minecraft:overworld"
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "shop:menu/open"
+  }
+}
