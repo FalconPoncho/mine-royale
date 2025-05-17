@@ -33,3 +33,5 @@ scoreboard objectives add buy_torch trigger buy_torch
 
 scoreboard objectives remove buy_claim_stake
 scoreboard objectives add buy_claim_stake trigger buy_claim_stake
+
+advancement revoke @a[advancements={shop:menu=true}] only shop:menu

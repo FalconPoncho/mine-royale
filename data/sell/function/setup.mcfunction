@@ -36,3 +36,5 @@ scoreboard players set gold value 20
 scoreboard objectives remove emerald
 scoreboard objectives add emerald dummy emerald
 scoreboard players set emerald value 500
+
+advancement revoke @a[advancements={sell:ores=true}] only sell:ores
