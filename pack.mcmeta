@@ -1,6 +1,14 @@
 {
-    "pack": {
-      "pack_format": 71,
-      "description": "Mine Royale Minigame"
-    }
+  "pack": {
+    "pack_format": 71,
+    "description": "Mine Royale Minigame"
+  },
+  "filter": {
+    "block": [
+        {
+            "namespace": "minecraft",
+            "path": "advancements/.*"
+        }
+    ]
+  }
 }
