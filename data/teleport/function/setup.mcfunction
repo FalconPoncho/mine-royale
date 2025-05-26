@@ -4,6 +4,9 @@ scoreboard objectives add used_return_crystal minecraft.used:minecraft.amethyst_
 scoreboard objectives remove at_shop
 scoreboard objectives add at_shop dummy at_shop
 
+scoreboard objectives remove deaths
+scoreboard objectives add deaths deathCount deaths
+
 scoreboard objectives remove position_x
 scoreboard objectives add position_x dummy position_x
 scoreboard objectives remove position_y
